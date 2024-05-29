@@ -41,8 +41,9 @@ Data from these sources will be pulled and aggregated daily with the following a
 The processed data from various sources will be integrated into a single, cohesive data set that combines information about movies, their soundtracks, and their success metrics. The goal is to have the following
 
 - at most, three tables within a schema that holds the aggregations and transformations of pulled resources
-- a job with transformations to load to staging table using **Python** and **Spark**
+- a job with minimal transformations to load source data into staging table using **Python**
     - data would be stored in our bootcamp academy database
+    - depending on how much data is available, we may introduce **Spark**, but anticipating minimal updates after the first load from hour to hour
 - a job with transformations to load aggregates to a dashboard or report using **SQL (Trino engine)** and **dbt**
 - for the dashboard, I am considering three options
     - [Deepnote](https://deepnote.com/): a data science notebook on steroids that allows for some analysis and interactive visuals
