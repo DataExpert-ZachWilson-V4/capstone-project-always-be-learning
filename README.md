@@ -8,7 +8,7 @@ Shout out to a stranger’s curiosity on this project. I saw a tweet once (which
 
 ## Technical Approach
 
-![a diagram showing the flow of data from sources to destination to highlight the goal of the project](img/project_proposal_diagram.png)
+![a diagram showing the flow of data from sources to destination to highlight the goal of the project](img/capstone_project_proposal_diagram.png)
 
 ### Data Sources
 
